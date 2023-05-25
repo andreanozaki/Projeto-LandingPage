@@ -10,8 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="img/favicon.png" />
+
+
+    <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/general.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/script.js"></script>
     <title>Project Sweet</title>
 </head>
 
@@ -22,13 +32,17 @@
         </a>
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">Section 1</a></li>
+                <li><a class="main-nav-link" href="#">Como Funciona</a></li>
                 <li><a class="main-nav-link" href="#">Section 2</a></li>
                 <li><a class="main-nav-link" href="#">Section 3</a></li>
                 <li><a class="main-nav-link" href="#">Section 4</a></li>
                 <li><a class="main-nav-link nav-cta" href="#">Section 5</a></li>
             </ul>
         </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
     </header>
 
     <main>
@@ -44,7 +58,7 @@
                         sem
                         glúten.
                     </p>
-                    <a href="#" class="btn btn--full margin-right-sm">Comece a confeitar</a>
+                    <a href="#cta" class="btn btn--full margin-right-sm">Comece a confeitar</a>
 
                     <div class="deliverded-meals">
                         <div class="delivered-imgs">
@@ -55,7 +69,9 @@
                             <img src="img/customers/customer-5.jpg" alt="customers"> <img
                                 src="img/customers/customer-6.jpg" alt="customers">
                         </div>
-                        <p class="delivered-text"> +<span>1.500 </span> alunos ao redor do mundo</p>
+                        <p class="delivered-text">
+                            <span>1.500 </span> alunos ao redor do mundo
+                        </p>
                     </div>
                 </div>
                 <div class="hero-img-box">
@@ -64,7 +80,7 @@
             </div>
         </section>
 
-        <section class="section-how ">
+        <section class="section-how" id="how">
             <div class="container">
                 <span class="subheading">Como funciona</span>
                 <h2 class="heading-secondary">Sua sobremesa em 3 passos.</h2>
@@ -123,13 +139,13 @@
         </section>
 
 
-        <section class="section-meals">
-            <div class="container">
+        <section class="section-meals" id="meals">
+            <div class="container center-text ">
                 <span class="subheading">Doces</span>
                 <h2 class="heading-secondary">Escolha entre as nossas 1000+ receitas</h2>
             </div>
 
-            <div class="container grid grid--3-cols">
+            <div class="container grid grid--3-cols margim-bottom-md">
                 <div class="meal">
                     <img class="meal-img" src="img/app/cake2.jpg" alt="">
                     <div class="meal-content">
@@ -279,7 +295,7 @@
             </div>
         </section>
 
-        <section class="section-pricing">
+        <section class="section-pricing" id="pricing">
             <div class="container">
                 <span class="subheading">Preços</span>
                 <h2 class="heading-secondary">Os usuários podem cancelar
@@ -405,7 +421,7 @@
             </div>
         </section>
 
-        <section class="section-cta">
+        <section class="section-cta" id="cta">
             <div class="container">
                 <div class="cta">
                     <div class="cta-text-box">

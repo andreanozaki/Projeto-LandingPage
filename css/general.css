@@ -48,6 +48,7 @@ Medium: 11px
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -55,6 +56,9 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+    /* Only works if there is nothing absolutely positioned in relation to body */
+    overflow-x: hidden;
+
 }
 
 /***************************/
@@ -139,15 +143,18 @@ body {
 .btn:link,
 .btn:visited {
     display: inline-block;
+
     font-size: 2rem;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
+
     text-decoration: none;
     font-weight: 500;
     /*somente necessario para .btn*/
     border: none;
     cursor: pointer;
     font-family: inherit;
+    /* transition: background-color 0.3s; */
 
     transition: all 0.3s;
 }
@@ -194,6 +201,16 @@ body {
     display: flex;
     align-items: center;
     gap: 1.6rem;
+}
+
+.link:link,
+.link:visited {
+    display: inline-block;
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+    transition: all 0.3s;
 }
 
 /*Helper/settings classes*/
