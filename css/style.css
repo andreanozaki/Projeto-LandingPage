@@ -123,7 +123,7 @@
     width: 100%;
 }
 
-.deliverded-meals {
+.delivered-meals {
     display: flex;
     margin-top: 8rem;
     align-items: center;
@@ -143,7 +143,7 @@
 }
 
 .delivered-imgs img:last-child {
-    margin-right: 5px;
+    margin-right: 0px;
 }
 
 .delivered-text {
@@ -155,6 +155,34 @@
     color: #9a3b15;
 }
 
+/**************************/
+/* FEATURED IN SECTION */
+/**************************/
+
+.section-featured {
+    padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    color: #888;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos img {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
 
 
 /***************************/
@@ -187,7 +215,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-    content: '';
+    content: "";
     display: block;
     border-radius: 50%;
     background-color: #fdf2e9;
@@ -296,6 +324,10 @@ span {
 
 }
 
+.all-recipes {
+    text-align: center;
+    font-size: 1.8rem;
+}
 
 /***************************/
 /*TESTIMONIAL SECTION*/
@@ -360,7 +392,7 @@ span {
 }
 
 /***************************/
-/*swPRICING SECTION*/
+/*PRICING SECTION*/
 /***************************/
 .section-pricing {
     padding: 9.6rem 0;
@@ -406,7 +438,7 @@ span {
 .plan-header {
     text-align: center;
     margin-bottom: 4.8rem;
-    width: 75%;
+
 }
 
 .plan-name {
@@ -487,7 +519,7 @@ span {
 
 }
 
-.media-squad {}
+
 
 /***************************/
 /*SECTION CTA*/
@@ -542,7 +574,7 @@ span {
             rgba(230, 125, 34, 0.35)),
         url("../img/logos/Design\ sem\ nome-7.png");
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 .cta-form {

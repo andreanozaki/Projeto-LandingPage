@@ -186,6 +186,7 @@ body {
     background-color: #4e2c0f;
     color: #fdf2e9;
     align-self: end;
+    padding: 1.2rem;
 }
 
 
@@ -193,6 +194,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
+    list-style: none;
+
 
 }
 
@@ -203,6 +206,12 @@ body {
     gap: 1.6rem;
 }
 
+.list-icon {
+    width: 3rem;
+    height: 3rem;
+    color: #e67e22;
+}
+
 .link:link,
 .link:visited {
     display: inline-block;
@@ -211,6 +220,19 @@ body {
     border-bottom: 1px solid currentColor;
     padding-bottom: 2px;
     transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+    color: #b77841;
+    border-bottom: 1px solid transparent;
+}
+
+*:focus {
+    outline: none;
+    /* outline: 4px dotted #e67e22; */
+    /* outline-offset: 8px; */
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 /*Helper/settings classes*/
