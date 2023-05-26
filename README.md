@@ -1,5 +1,5 @@
 # Projeto-LandingPage
-Visualize a LandingPage: ([https://github.com](https://andreahcodes.github.io/Projeto-LandingPage/))
+## Visualize a LandingPage  -> ([https://github.com](https://andreahcodes.github.io/Projeto-LandingPage/))
 ## Landing Page feita com HTML, CSS e JAVASCRIPT, projeto responsivo.
 ## Mobile
 
