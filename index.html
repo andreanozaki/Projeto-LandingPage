@@ -5,31 +5,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description"
-        content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs." />
-
+        content="Elite Cakes é uma plataforma de cursos online d confeitaria co mais de 1.500 alunos pelo mundo." />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
 
-        // Evento de rolagem suave para âncoras
-        $( 'a[href^="#cta"]' ).click( function ( event ) {
-            event.preventDefault();
-            var target = $( this.getAttribute( 'href' ) );
-            if ( target.length ) {
-                $( 'html, body' ).animate( {
-                    scrollTop: target.offset().top
-                }, 1000 );
-            }
-        } );
+    <script src="/jquery/jquery-3.4.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
 
-    </script>
 
 
     <link rel="icon" href="img/favicon.png" />
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-    <link rel="manifest" href="manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
@@ -83,7 +72,7 @@
                     </p>
                     <a href="#cta" class="btn btn--full margin-right-sm">Torne-se expert</a>
 
-                    <a href="#how" class="btn btn--outline">Saiba mais &darr;</a>
+                    <a id="more" href="#how" class="btn btn--outline">Saiba mais &darr;</a>
 
 
                     <div class="delivered-meals">
@@ -108,8 +97,8 @@
 
         <section class="section-how" id="how">
             <div class="container">
-                <span class="subheading">Perguntas Frequentes:Como funciona?</span>
-                <h2 class="heading-secondary">Sua sobremesa em 3 passos.</h2>
+                <span id="first" class="subheading">Perguntas Frequentes:Como funciona?</span>
+                <h2 class="heading-secondary ">Sua sobremesa em 3 passos.</h2>
             </div>
 
             <div class="container grid grid--2-cols grid--center-v">
@@ -563,6 +552,16 @@
 
 
     </footer>
+
+
+    <script>
+        $( '#more' ).click(
+            function () {
+                $( '#first' ).animate( { height: "30px" }, { duration: 1000 } );
+            }
+        )
+
+    </script>
 </body>
 
 </html>
