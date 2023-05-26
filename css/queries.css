@@ -108,6 +108,10 @@
         grid-template-columns: repeat(6, 1fr);
     }
 
+    .time {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .cta {
         /* 3/5 = 60% + 2/5 = 40% */
         grid-template-columns: 3fr 2fr;
@@ -181,6 +185,8 @@
     .main-nav-link:visited {
         font-size: 3rem;
     }
+
+
 }
 
 /**************************/

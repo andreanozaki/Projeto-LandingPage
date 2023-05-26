@@ -26,7 +26,7 @@
     <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
     <script defer src="js/script.js"></script>
 
-    <title>Omnifood &mdash; Never cook again!</title>
+    <title>Elite Cake &mdash; Torne-se um expert!</title>
 </head>
 
 <body>
@@ -36,11 +36,11 @@
         </a>
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">Como Funciona</a></li>
-                <li><a class="main-nav-link" href="#">Sweets</a></li>
-                <li><a class="main-nav-link" href="#">Testemunhos</a></li>
-                <li><a class="main-nav-link" href="#">Preco/Squad</a></li>
-                <li><a class="main-nav-link nav-cta" href="#">Teste gratis</a></li>
+                <li><a class="main-nav-link" href="#how">Como Funciona</a></li>
+                <li><a class="main-nav-link" href="#meals">Doces</a></li>
+                <li><a class="main-nav-link" href="#pricing">Preços</a></li>
+                <li><a class="main-nav-link" href="#testimonials">Testemunhos</a></li>
+                <li><a class="main-nav-link nav-cta" href="#cta">Teste gratis</a></li>
             </ul>
         </nav>
         <button class="btn-mobile-nav">
@@ -53,10 +53,12 @@
         <section class="section-hero">
             <div class="hero">
                 <div class="hero-text-box">
-                    <h1 class="heading-primary">Aprenda a fazer doces incríveis!
+                    <h1 class="heading-primary">
+                        Aprenda a fazer doces incríveis!
                     </h1>
 
-                    <p class="hero-description">A Elite Cake é uma empresa que acredita que a comida é uma forma de
+                    <p class="hero-description">
+                        A Elite Cake é uma empresa que acredita que a comida é uma forma de
                         união e amor,
                         oferecemos aulas completas, ensinadas por um chef experiente, com opções de doces sem lactose e
                         sem
@@ -64,14 +66,17 @@
                     </p>
                     <a href="#cta" class="btn btn--full margin-right-sm">Comece a confeitar</a>
 
-                    <div class="deliverded-meals">
+                    <a href="#how" class="btn btn--outline">Saiba mais &darr;</a>
+
+
+                    <div class="delivered-meals">
                         <div class="delivered-imgs">
                             <img src="img/customers/customer-1.jpg" alt="customers">
                             <img src="img/customers/customer-2.jpg" alt="customers">
                             <img src="img/customers/customer-3.jpg" alt="customers">
                             <img src="img/customers/customer-4.jpg" alt="customers">
-                            <img src="img/customers/customer-5.jpg" alt="customers"> <img
-                                src="img/customers/customer-6.jpg" alt="customers">
+                            <img src="img/customers/customer-5.jpg" alt="customers">
+                            <img src="img/customers/customer-6.jpg" alt="customers">
                         </div>
                         <p class="delivered-text">
                             <span>1.500 </span> alunos ao redor do mundo
@@ -186,38 +191,41 @@
                     <h3 class="heading-tertiary">Trabalhamos com dietas variadas</h3>
                     <ul class="list">
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Vegan</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Gluten free</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>No Sugar</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Diet</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Low-carb</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Lactose free</span>
                         </li>
                     </ul>
                 </div>
             </div>
+
+            <div class="container all-recipes">
+                <a href="#" class="link">See all recipes &rarr;</a>
             </div>
         </section>
 
 
 
-        <section class="section-testimonials ">
+        <section class="section-testimonials " id="testimonials">
 
             <div class="testimonials-container">
                 <span class="subheading">Testemunhos</span>
@@ -315,23 +323,23 @@
                     </header>
                     <ul class="list">
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span></i>Acesso +50 receitas</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Faq-Duvidas</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Ebook-digital</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Video-aulas</span>
                         </li>
                         <li class="listem-item">
-                            <span><i class="fa-solid fa-x check-list list-x"></i></span>
+                            <ion-icon class="list-icon" name="checkmark-outline "></ion-icon>
                         </li>
                     </ul>
                     <div class="plan-sign-up">
@@ -346,23 +354,23 @@
                     </header>
                     <ul class="list">
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Acesso +100 receitas</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Ebook-digital</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Video-aulas </span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Videos com dicas extras</span>
                         </li>
                         <li class="listem-item">
-                            <i class="fa-regular fa-check check-list"></i>
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Faq-Duvidas</span>
                         </li>
                     </ul>
@@ -388,20 +396,20 @@
 
             </div>
 
-            <div class=" container grid grid---4-cols">
+            <div class="time container grid grid---4-cols">
 
                 <div class="squad">
                     <img class="squad-img" src="img/customers/dave.jpg" alt="">
                     <p class="squad-name">Sakamoto Jun</p>
                     <p class="squad-text">
-                        <strong>CEO</strong> -Idealizador e fundador da empresa.
+                        <strong>CEO</strong> - Idealizador e fundador da empresa.
                     </p>
                 </div>
                 <div class="squad">
                     <img class="squad-img" src="img/customers/customer-4.jpg" alt="">
                     <p class="squad-name">Massao Ricardo</p>
                     <p class="squad-text">
-                        <strong>Chef Instrutor</strong> Chef de cozinha e confeiteiro.
+                        <strong>Chef Instrutor</strong> - Chef de cozinha e confeiteiro.
                     </p>
                 </div>
                 <div class="squad">
@@ -409,7 +417,7 @@
                     <p class="squad-name">Marcus Smicht</p>
                     <p class="squad-text">
                         <strong>Manager</strong>
-                        -Gerente de Marketing
+                        - Gerente de Marketing e social media.
                     </p>
 
                 </div>
@@ -419,9 +427,10 @@
                     <p class="squad-name">Andrea Codes</p>
                     <p class="squad-text">
                         <strong>Developer</strong>
-                        -Desenvolvedora e Designer
+                        - Desenvolvedora e Designer
                     </p>
                 </div>
+
             </div>
         </section>
 
@@ -530,9 +539,8 @@
                 <ul class="footer-nav">
                     <li><a class="footer-link" href="#">Diretorio de Receitas</a></li>
                     <li><a class="footer-link" href="#">Central de Ajuda</a></li>
-                    <li>
-                        <a class="footer-link" href="#">Privacidade e Termos</a>
-                    </li>
+                    <li><a class="footer-link" href="#">Privacidade e Termos</a>
+
                 </ul>
             </nav>
         </div>
