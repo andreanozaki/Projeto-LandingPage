@@ -554,14 +554,20 @@
     </footer>
 
 
+    <!-- JQUERY animations -->
     <script>
         $( '#more' ).click(
             function () {
                 $( '#first' ).animate( { height: "30px" }, { duration: 1000 } );
             }
         )
-
+        $( '#more' ).click(
+            function () {
+                $( '#first' ).css( { 'color': '#9a3b15' } )
+            }
+        )
     </script>
+
 </body>
 
 </html>
