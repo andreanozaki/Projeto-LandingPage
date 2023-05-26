@@ -10,6 +10,23 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        // Evento de rolagem suave para âncoras
+        $( 'a[href^="#cta"]' ).click( function ( event ) {
+            event.preventDefault();
+            var target = $( this.getAttribute( 'href' ) );
+            if ( target.length ) {
+                $( 'html, body' ).animate( {
+                    scrollTop: target.offset().top
+                }, 1000 );
+            }
+        } );
+
+    </script>
+
+
     <link rel="icon" href="img/favicon.png" />
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
     <link rel="manifest" href="manifest.webmanifest" />
