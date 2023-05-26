@@ -591,6 +591,13 @@ span {
     color: #9a3b15;
 }
 
+#texto {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 /***************************/
 /*FOOTER*/
 /***************************/

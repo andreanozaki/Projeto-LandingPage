@@ -386,11 +386,12 @@
                 </div>
             </div>
 
-            <div class="container grid">
+            <div id="bloco" class="container grid">
                 <aside class="plan-details">
                     Os preços incluem todos os impostos aplicáveis. Os usuários podem cancelar a qualquer momento.
 
                 </aside>
+                <p id="texto"></p>
             </div>
         </section>
 
@@ -545,27 +546,30 @@
                     <li><a class="footer-link" href="#">Diretorio de Receitas</a></li>
                     <li><a class="footer-link" href="#">Central de Ajuda</a></li>
                     <li><a class="footer-link" href="#">Privacidade e Termos</a>
-
                 </ul>
             </nav>
         </div>
-
-
     </footer>
 
 
-    <!-- JQUERY animations -->
+    <!-- JQUERY event and animation -->
     <script>
+        $( '#bloco' ).mouseenter( () => {
+            $( "#texto" ).text( "Faca parte da nossa Turma!" )
+        } )
+
         $( '#more' ).click(
             function () {
                 $( '#first' ).animate( { height: "30px" }, { duration: 1000 } );
             }
         )
+
         $( '#more' ).click(
             function () {
                 $( '#first' ).css( { 'color': '#9a3b15' } )
             }
         )
+
     </script>
 
 </body>
