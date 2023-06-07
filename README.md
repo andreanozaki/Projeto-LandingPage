@@ -4,8 +4,7 @@
 ### Landing Page
 
 
-✌🏻 A professionally designed sales webpage for online pastry courses. This project showcases advanced HTML and CSS techniques, including responsive layouts using flexbox and CSS Grid. The result is an appealing and intuitive user interface that provides an excellent user experience.
-
+✌🏻 ✌🏻 A professional-looking sales webpage for online pastry courses. Throughout the project, I implemented advanced HTML and CSS techniques, including the creation of responsive layouts using flexbox and CSS Grid. Additionally, I incorporated modern design practices to ensure an attractive and intuitive user interface.
 
 <img width="1787" alt="LP2" src="https://github.com/andreahcodes/Projeto-LandingPage/assets/112190511/01a62440-27eb-4cbb-ac7f-29cf6914fb3b">
 
