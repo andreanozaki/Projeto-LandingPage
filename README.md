@@ -4,8 +4,7 @@
 ### Landing Page
 
 
-✌🏻 Uma Webpage de vendas de cursos online de confeitaria. Ao longo do projeto, pude aplicar técnicas avançadas de HTML e CSS, como a criação de layouts responsivos usando flexbox e CSS Grid. 
-Além disso, implementei práticas modernas de design, garantindo uma interface atraente e intuitiva.
+✌🏻 A professionally designed sales webpage for online pastry courses. This project showcases advanced HTML and CSS techniques, including responsive layouts using flexbox and CSS Grid. The result is an appealing and intuitive user interface that provides an excellent user experience.
 
 
 <img width="1787" alt="LP2" src="https://github.com/andreahcodes/Projeto-LandingPage/assets/112190511/01a62440-27eb-4cbb-ac7f-29cf6914fb3b">
