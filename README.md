@@ -15,6 +15,16 @@ The Webpage is compatible with devices of all sizes, it's a responsive page.
 
 <img width="572" alt="LP1" src="https://github.com/andreahcodes/Projeto-LandingPage/assets/112190511/a74a41dd-f48f-4954-822b-0f8b31786b40">
 
+### 📝Sessions
+
+The website has 5 sessions:
+
+- How It Works: A demonstration of how to use the site.
+- Sweets: Showcasing the variety of diets we offer.
+- Pricing: Presenting subscription plans to entice customers to sign up for the site.
+- Testimonials:Displaying customer testimonials and experiences.
+- Free Trial: Presents a form encouraging customers to sign up for the site.
+
 ### 🔎 Development
 Want to contribute? Great!
 
