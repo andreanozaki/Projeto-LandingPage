@@ -8,7 +8,7 @@ A professional-looking sales webpage for online pastry courses. Throughout the p
 <img width="1787" alt="LP2" src="https://github.com/andreahcodes/Projeto-LandingPage/assets/112190511/01a62440-27eb-4cbb-ac7f-29cf6914fb3b">
 
 ### 🎥 Demo
-Here is a working live demo :   https://andreahcodes.github.io/Projeto-LandingPage/
+Here is a working live demo :  https://elitecakes.netlify.app
 
 ### 📲 Mobile support
 The Webpage is compatible with devices of all sizes, it's a responsive page.
