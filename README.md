@@ -13,7 +13,7 @@ Here is a working live demo :  https://elitecakes.netlify.app
 ### 📲 Mobile support
 The Webpage is compatible with devices of all sizes, it's a responsive page.
 
-<img width="572" alt="LP1" src="https:https://elitecakes.netlify.app
+
 ### 📝Sessions
 
 The website has 5 sessions:
